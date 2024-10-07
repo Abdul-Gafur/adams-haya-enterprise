@@ -7,7 +7,7 @@
     <div id="hero-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
 
       <div class="carousel-item active">
-        <img src="assets/img/hero-carousel/hero-carousel-1.jpg" alt="">
+        <img src="{{ asset('assets/images/hero-img.png') }}" alt="">
         <div class="carousel-container">
           <h2>Timely sand deliveries for construction projects of any size<br></h2>
           <p>"Explore our range of powerful and reliable trucks designed to meet your needs</p>
@@ -16,7 +16,7 @@
       </div><!-- End Carousel Item -->
       
       <div class="carousel-item">
-        <img src="assets/img/hero-carousel/hero-carousel-1.jpg" alt="">
+        <img src="{{ asset('assets/images/hero-img.png') }}" alt="">
         <div class="carousel-container">
           <h2>Timely sand deliveries for construction projects of any size<br></h2>
           <p>"Explore our range of powerful and reliable trucks designed to meet your needs</p>

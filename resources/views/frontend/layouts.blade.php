@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Adams Haya Enterprise</title>
+
+    {{-- VENDOR STYLES --}}
+    <link rel="stylesheet" href="{{ asset('assets/vendor/bootstrap/css/bootstrap.min.css') }}">
+
+    {{-- MAIN STYLES --}}
+    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
 </head>
 
 <body>
@@ -13,6 +19,9 @@
 
 
     @include('frontend.partials.footer')
+
+
+    <script src="{{ asset('assets/vendor/bootstrap/js/bootstrap.min.js') }}"></script>
 </body>
 
 </html>

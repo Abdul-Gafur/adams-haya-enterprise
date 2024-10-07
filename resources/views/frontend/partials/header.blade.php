@@ -17,7 +17,7 @@
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
-      <a class="btn-getstarted" href="#about">Contact </a>
+      <a class="btn-contact" href="#contact">Contact </a>
 
     </div>
   </header>
