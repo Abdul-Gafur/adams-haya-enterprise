@@ -443,6 +443,14 @@ section {
     padding: 20px;
     height: 300px;
 }
+
+@media (max-width: 768px) {
+    .truck {
+        flex-direction: column;
+        height: auto;
+    }
+}
+
 .truck-details {
     margin-right: 20px;
 }
@@ -464,5 +472,55 @@ section {
 
 .newsletter {
     background-color: #FFD8D9;
+    padding: 20px;
+    height: 39vh;
+    /* position: relative; */
 }
 
+.newsletter img {
+    position: relative;
+    top: -100px;
+}
+
+.subscribe-btn {
+    color: var(--contrast-color);
+    background: var(--accent-color);
+    font-size: 14px;
+    padding: 8px 16px;
+    transition: 0.3s;
+    width: 100px;
+    border: 0;
+    position: relative;
+    bottom: 3px;
+}
+
+.newsletter-form-container h2 {
+    padding: 40px 0;
+}
+
+.newsletter-form-container input[type=text] {
+    border: none;
+    border-bottom: 2px solid #000000;
+    background-color: transparent !important;
+    text-align: right;
+}
+
+.newsletter-form {
+    position: absolute;
+}
+
+/* FOOTER STYLES */
+.footer {
+    padding: 80px 40px 0 40px;
+}
+
+
+.footer-hr {
+    color: #FFD8D9;
+    height: 10px;
+}
+
+.footer .copyright {
+    padding: 15px 0;
+    text-align: center;
+}

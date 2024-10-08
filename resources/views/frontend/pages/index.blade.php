@@ -126,16 +126,18 @@
     <section class="newsletter">
         <div class="container">
             <div class="row">
-                <div class="newsletter-form">
-                    <h2>Subscribe to our newsletter</h2>
+                <div class="newsletter-form-container col-lg-4">
+                    <h2>Subscribe to our <br> newsletter</h2>
                     <form action="">
-                        <div>
+                        <div class="newsletter-form">
                             <input type="text" name="email" id="email" placeholder="Email">
-                        <input type="submit" value="Subscribe">
+                        <input type="submit" value="Subscribe" class="subscribe-btn">
                         </div>
                     </form>
+                </div>
 
-                    <img src="{{ asset('assets/images/newsletter.png') }}" alt="">
+                <div class="col-lg-8">
+                    <img src="{{ asset('assets/images/newsletter.png') }}" alt="" class="img-fluid">
                 </div>
             </div>
         </div>
