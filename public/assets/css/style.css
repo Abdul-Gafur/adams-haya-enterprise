@@ -24,7 +24,7 @@ section {
 
 .section-title {
     text-align: center;
-    padding-bottom: 5rem;
+    padding-bottom: 3rem;
 }
 
 /*--------------------------------------------------------------
@@ -434,4 +434,19 @@ section {
         opacity: 1;
         transform: translate3d(0, 0, 0);
     }
+}
+
+
+/* Trucks section styles */
+.truck {
+    background-color: #F5F5F5;
+    padding: 20px;
+    height: 300px;
+}
+.truck-details {
+    margin-right: 20px;
+}
+
+.truck-img {
+    max-width: 45%;
 }
