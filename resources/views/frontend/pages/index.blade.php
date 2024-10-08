@@ -78,7 +78,7 @@
             <div class="section-title">
                 <h2>Featured Trucks</h2>
             </div>
-            <div class="row">
+            <div class="row justify-content-center">
                 <div class="col-lg-6 py-4">
                     <div class="truck d-flex">
                         <div class="truck-details">
@@ -115,6 +115,27 @@
                         </div>
                         <img src="{{ asset('assets/images/trucks/tipper.png') }}" alt="" class="img-fluid truck-img">
                     </div>
+                </div>
+                <a class="btn-more" href="#trucks">Browse Our Trucks </a>
+
+            </div>
+        </div>
+    </section>
+    {{-- TRUCKS SECTION ENDS --}}
+
+    <section class="newsletter">
+        <div class="container">
+            <div class="row">
+                <div class="newsletter-form">
+                    <h2>Subscribe to our newsletter</h2>
+                    <form action="">
+                        <div>
+                            <input type="text" name="email" id="email" placeholder="Email">
+                        <input type="submit" value="Subscribe">
+                        </div>
+                    </form>
+
+                    <img src="{{ asset('assets/images/newsletter.png') }}" alt="">
                 </div>
             </div>
         </div>

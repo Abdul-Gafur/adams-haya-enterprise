@@ -450,3 +450,19 @@ section {
 .truck-img {
     max-width: 45%;
 }
+
+.btn-more {
+    color: var(--contrast-color);
+    background: var(--accent-color);
+    font-size: 14px;
+    padding: 8px 25px;
+    margin: 0 0 0 30px;
+    border-radius: 4px;
+    transition: 0.3s;
+    width: 200px;
+}
+
+.newsletter {
+    background-color: #FFD8D9;
+}
+
