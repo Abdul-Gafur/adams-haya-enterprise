@@ -22,11 +22,7 @@
           <p>Explore our range of powerful and reliable trucks designed to meet your needs</p>
           <a href="#featured-services" class="btn-get-started">Explore Our Construction Solutions</a>
         </div>
-      </div><!-- End Carousel Item -->
-
-
-
-      
+      </div><!-- End Carousel Item -->  
 
       <ol class="carousel-indicators">
         <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
@@ -43,5 +39,10 @@
   </section>
 
   {{-- HERO SECTION ENDS --}}
+
+  {{-- HOMEPAGE VIDEO SECTION STARTS --}}
+  <section class="home-vid">
+    <img src="{{ asset('assets/images/home-vid.png') }}" alt="" class="img-fluid">
+  </section>
 
   @endsection
