@@ -7,8 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Adams Haya Enterprise</title>
 
-    {{-- VENDOR STYLES --}}
+    {{-- VENDOR CSS STYLES --}}
     <link rel="stylesheet" href="{{ asset('assets/vendor/bootstrap/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/vendor/bootstrap-icons/bootstrap-icons.min.css')}}">
 
     {{-- MAIN STYLES --}}
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
@@ -17,11 +18,13 @@
 <body>
     @include('frontend.partials.header')
 
+    @yield('content')
 
     @include('frontend.partials.footer')
 
 
     <script src="{{ asset('assets/vendor/bootstrap/js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('assets/js/main.js') }}"></script>
 </body>
 
 </html>

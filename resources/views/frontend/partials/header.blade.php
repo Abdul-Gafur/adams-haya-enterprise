@@ -2,7 +2,7 @@
     <div class="container-fluid container-xl position-relative d-flex align-items-center">
 
       <a href="index.html" class="logo d-flex align-items-center me-auto">
-        <img src="assets/img/logo.png" alt="">
+        <img src="{{ asset('assets/images/logo.png') }}" alt="">
       </a>
 
       <nav id="navmenu" class="navmenu">
