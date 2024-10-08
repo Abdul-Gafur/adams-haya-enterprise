@@ -13,7 +13,7 @@ body {
 }
 
 a {
-    color: var(--accent-color);
+    color: var(--default-color);
     text-decoration: none;
     transition: 0.3s;
 }
@@ -473,7 +473,7 @@ section {
 .newsletter {
     background-color: #FFD8D9;
     padding: 20px;
-    height: 39vh;
+    height: 46vh;
     /* position: relative; */
 }
 
@@ -514,10 +514,30 @@ section {
     padding: 80px 40px 0 40px;
 }
 
+.footer-links {
+    padding-left: 5rem;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+
+}
+
+.footer-socials ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+.footer-socials li {
+    margin-right: 30px;
+}
 
 .footer-hr {
-    color: #FFD8D9;
-    height: 10px;
+    color: #fcbec1;
+    opacity: 20;
+    margin-top: 20px;
 }
 
 .footer .copyright {
