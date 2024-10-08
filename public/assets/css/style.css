@@ -22,6 +22,11 @@ section {
     padding: 80px 40px;
 }
 
+.section-title {
+    text-align: center;
+    padding-bottom: 5rem;
+}
+
 /*--------------------------------------------------------------
 # Global Header
 --------------------------------------------------------------*/
