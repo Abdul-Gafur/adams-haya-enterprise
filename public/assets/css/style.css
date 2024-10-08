@@ -355,6 +355,15 @@ a {
     width: 10%;
     transition: 0.3s;
     opacity: 0.5;
+
+}
+
+.hero .carousel-control-prev {
+    left: 35%;
+}
+
+.hero .carousel-control-next {
+    right: 35%;
 }
 
 .hero .carousel-control-prev:focus,

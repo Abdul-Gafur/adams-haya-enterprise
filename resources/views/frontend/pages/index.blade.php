@@ -15,26 +15,28 @@
         </div>
       </div><!-- End Carousel Item -->
       
-      {{-- <div class="carousel-item">
+      <div class="carousel-item">
         <img src="{{ asset('assets/images/hero-img.png') }}" alt="">
         <div class="carousel-container">
           <h2>Timely sand deliveries for construction projects of any size<br></h2>
           <p>Explore our range of powerful and reliable trucks designed to meet your needs</p>
           <a href="#featured-services" class="btn-get-started">Explore Our Construction Solutions</a>
         </div>
-      </div><!-- End Carousel Item --> --}}
+      </div><!-- End Carousel Item -->
 
 
 
-      <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon bi bi-arrow-left-circle" aria-hidden="true"></span>
-      </a>
+      
 
-      <a class="carousel-control-next" href="#hero-carousel" role="button" data-bs-slide="next">
-        <span class="carousel-control-next-icon bi bi-arrow-right-circle" aria-hidden="true"></span>
-      </a>
-
-      <ol class="carousel-indicators"></ol>
+      <ol class="carousel-indicators">
+        <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon bi bi-arrow-left-circle" aria-hidden="true"></span>
+          </a>
+    
+          <a class="carousel-control-next" href="#hero-carousel" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon bi bi-arrow-right-circle" aria-hidden="true"></span>
+          </a>
+      </ol>
 
     </div>
 
