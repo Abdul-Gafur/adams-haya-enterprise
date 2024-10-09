@@ -64,7 +64,7 @@
             </div>
         </section>
 
-        <section>
+        <section class="logistics">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-6">
@@ -73,6 +73,7 @@
 
                     <div class="col-lg-6">
                         <div class="content">
+                            <span></span>
                             <h2>Connecting Industries with Seamless Logistics</h2>
                             <p>Our logistics services connect industries by providing the fuel and materials that power progress. We specialize in delivering vital resources, from petrol stations to construction sites, with unmatched efficiency. With a modern fleet and expert team, we ensure a smooth, hassle-free process every time. Let us bridge the gap between your business needs and timely deliveries.</p>
                             <a href="#" class="btn-more mx-0">Contact Us Today</a>
