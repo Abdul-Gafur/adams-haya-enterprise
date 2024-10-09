@@ -7,12 +7,12 @@
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="#hero" class="active">Home</a></li>
-          <li><a href="#about">About Us</a></li>
-          <li><a href="">Our Team</a></li>
-          <li><a href="">Services</a></li>
-          <li><a href="">Trucks</a></li>
-          <li><a href="">Reviews</a></li>
+          <li><a href="#hero" class="active" id="home">Home</a></li>
+          <li><a href="{{ route('frontend.about') }}" id="about">About Us</a></li>
+          <li><a href="" id="team">Our Team</a></li>
+          <li><a href="" id="services">Services</a></li>
+          <li><a href="" id="trucks">Trucks</a></li>
+          <li><a href="" id="reviews">Reviews</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>

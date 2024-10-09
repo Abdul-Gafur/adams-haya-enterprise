@@ -516,7 +516,7 @@ section {
     font-size: 14px;
     padding: 8px 25px;
     margin: 0 0 0 30px;
-    border-radius: 4px;
+    /* border-radius: 4px; */
     transition: 0.3s;
     width: 200px;
 }
@@ -628,4 +628,71 @@ section {
 .footer .copyright {
     padding: 15px 0;
     text-align: center;
+}
+
+/* ABOUT PAGE STYLES */
+.about-title {
+    padding: 1rem 6rem;
+}
+
+@media (min-width: 1024px) {
+    .about-content {
+        padding-left: 5rem;
+    }
+}
+.about-content p {
+    padding: 20px 0;
+}
+
+/* OUT MISSION STYLES */
+.our-mission {
+    background-color: #1D1D1D;
+    color: #ffffff;
+}
+
+@media (min-width: 1024px) {
+    .our-mission .content {
+        padding: 0 50px;
+    }
+}
+
+.our-mission .content p {
+    padding: 20px 0;
+}
+
+.our-mission .content a {
+    background: transparent;
+    border: 1px solid #ffffff;
+}
+
+.our-mission .content a:hover {
+    background-color: var(--accent-color);
+}
+
+@media (min-width: 1024px) {
+    .our-mission .mission-img {
+        padding-left: 5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .about-title {
+        padding: 20px 40px;
+    }
+
+    .about-content{
+        padding-top: 2rem;
+
+    }
+
+    .our-mission .content {
+        order: 2;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .about-vid {
+        padding: 40px 0;
+    }
+
 }
