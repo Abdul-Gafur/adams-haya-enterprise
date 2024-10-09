@@ -19,4 +19,8 @@ class FrontendController extends Controller
     public function team() {
         return view('frontend/pages/team');
     }
+
+    public function services() {
+        return view('frontend/pages/services');
+    }
 }

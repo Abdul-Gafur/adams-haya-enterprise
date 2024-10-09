@@ -10,7 +10,7 @@
           <li><a href="{{ route('frontend.homepage') }}" class="active" id="home">Home</a></li>
           <li><a href="{{ route('frontend.about') }}" id="about">About Us</a></li>
           <li><a href="{{ route('frontend.team') }}" id="team">Our Team</a></li>
-          <li><a href="" id="services">Services</a></li>
+          <li><a href="{{ route('frontend.services') }}" id="services">Services</a></li>
           <li><a href="" id="trucks">Trucks</a></li>
           <li><a href="" id="reviews">Reviews</a></li>
         </ul>
