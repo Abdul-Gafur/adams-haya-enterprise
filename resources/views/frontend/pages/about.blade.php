@@ -3,7 +3,7 @@
 @section('content')
 
 <main class="about">
-    <div class="about-title">
+    <div class="breadcrump-title">
         <h2>Adams Haya Enterprise</h2>
     </div>
 

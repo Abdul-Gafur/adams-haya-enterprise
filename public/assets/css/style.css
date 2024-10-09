@@ -631,7 +631,7 @@ section {
 }
 
 /* ABOUT PAGE STYLES */
-.about-title {
+.breadcrump-title {
     padding: 1rem 6rem;
 }
 
@@ -676,7 +676,7 @@ section {
 }
 
 @media (max-width: 768px) {
-    .about-title {
+    .breadcrump-title {
         padding: 20px 40px;
     }
 
@@ -695,4 +695,19 @@ section {
         padding: 40px 0;
     }
 
+}
+
+/* TEAM STYLES */
+
+.team-member {
+    padding: 30px;
+    margin-top: 20px;
+    background-color: #F5F5F5;
+}
+
+
+
+.team-details {
+    text-align: center;
+    padding-top: 20px;
 }
