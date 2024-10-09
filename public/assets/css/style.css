@@ -22,6 +22,16 @@ section {
     padding: 80px 40px;
 }
 
+@media (max-width: 768px) {
+    section {
+        padding: 40px 20px;
+    }
+
+    .section-title {
+        padding: 0;
+    }
+}
+
 .section-title {
     text-align: center;
     padding-bottom: 3rem;
@@ -314,6 +324,12 @@ section {
     text-align: center;
 }
 
+@media (max-width: 768px) {
+    .hero .carousel-container {
+        inset: 40px 24px 24px 24px;
+    }
+}
+
 .hero h2 {
     margin-bottom: 30px;
     font-size: 48px;
@@ -373,6 +389,16 @@ section {
 
 .hero .carousel-control-next {
     right: 35%;
+}
+
+@media (max-width: 768px) {
+    .hero .carousel-control-prev {
+        left: 20%;
+    }
+
+    .hero .carousel-control-next {
+        right: 20%;
+    }
 }
 
 .hero .carousel-control-prev:focus,
@@ -448,6 +474,11 @@ section {
     .truck {
         flex-direction: column;
         height: auto;
+        padding-bottom: 30%;
+    }
+
+    .trucks {
+        padding-bottom: 30%;
     }
 }
 
@@ -473,13 +504,33 @@ section {
 .newsletter {
     background-color: #FFD8D9;
     padding: 20px;
-    height: 46vh;
-    /* position: relative; */
+    height: 32vh;
+    position: relative;
 }
 
 .newsletter img {
     position: relative;
     top: -100px;
+}
+
+@media (max-width: 768px) {
+    .newsletter {
+        height: 50vh;
+    }
+
+    .newsletter-form-container {
+        order: 2;
+        position: absolute;
+        top: 120px;
+    }
+
+    .newsletter-form input[type=text] {
+        display: block;
+        margin-bottom: 30px;
+        width: 100%;
+    }
+
+
 }
 
 .subscribe-btn {
@@ -494,6 +545,12 @@ section {
     bottom: 3px;
 }
 
+@media (max-width: 768px) {
+    .subscribe-btn {
+        width: 100%;
+    }
+}
+
 .newsletter-form-container h2 {
     padding: 40px 0;
 }
@@ -505,17 +562,25 @@ section {
     text-align: right;
 }
 
-.newsletter-form {
+/* .newsletter-form {
     position: absolute;
-}
+} */
 
 /* FOOTER STYLES */
 .footer {
     padding: 80px 40px 0 40px;
 }
 
-.footer-links {
-    padding-left: 5rem;
+@media (max-width: 768px) {
+    .footer {
+        padding: 40px 20px 0 20px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .footer-links {
+        padding-left: 5rem;
+    }
 }
 
 .footer-links ul {

@@ -57,7 +57,8 @@
 
             <div class="row justify-content-center">
                 <div class="partner-item col-lg-4 d-flex justify-content-center">
-                    <a href="https://namibra.io" target="_blank"><img src="{{ asset('assets/images/partners/namibra.png') }}" alt="" class="img-fluid"></a>
+                    <a href="https://namibra.io" target="_blank"><img
+                            src="{{ asset('assets/images/partners/namibra.png') }}" alt="" class="img-fluid"></a>
                 </div>
                 <div class="partner-item col-lg-4 d-flex justify-content-center">
                     <a href="#" target="_blank">
@@ -86,34 +87,44 @@
                             <p>Tipper trucks are designed to meet the demands of construction projects. They are
                                 efficient, reliable and easy to operate.</p>
                         </div>
-                        <img src="{{ asset('assets/images/trucks/tipper.png') }}" alt="" class="img-fluid truck-img">
+                        <img src="{{ asset('assets/images/trucks/tipper.png') }}" alt=""
+                            class="img-fluid truck-img">
                     </div>
                 </div>
                 <div class="col-lg-6 py-4">
                     <div class="truck d-flex">
                         <div class="truck-details">
                             <h2>Tankers</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim harum veritatis dolore ex, provident necessitatibus assumenda quia eveniet, voluptas mollitia repellat alias inventore nostrum nulla aliquid molestiae consequatur consectetur amet.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim harum veritatis dolore ex,
+                                provident necessitatibus assumenda quia eveniet, voluptas mollitia repellat alias inventore
+                                nostrum nulla aliquid molestiae consequatur consectetur amet.</p>
                         </div>
-                        <img src="{{ asset('assets/images/trucks/tanker.png') }}" alt="" class="img-fluid truck-img">
+                        <img src="{{ asset('assets/images/trucks/tanker.png') }}" alt=""
+                            class="img-fluid truck-img">
                     </div>
-                    </div>
+                </div>
                 <div class="col-lg-6 py-4">
                     <div class="truck d-flex">
                         <div class="truck-details">
                             <h2>Wheeler Dump Truck</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit autem ut cum porro dolores sequi ex nulla odit, perspiciatis sint earum incidunt deleniti sed veritatis laudantium nisi! Perspiciatis, assumenda earum!</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit autem ut cum porro dolores
+                                sequi ex nulla odit, perspiciatis sint earum incidunt deleniti sed veritatis laudantium
+                                nisi! Perspiciatis, assumenda earum!</p>
                         </div>
-                        <img src="{{ asset('assets/images/trucks/wheeler.png') }}" alt="" class="img-fluid truck-img">
+                        <img src="{{ asset('assets/images/trucks/wheeler.png') }}" alt=""
+                            class="img-fluid truck-img">
                     </div>
                 </div>
                 <div class="col-lg-6 py-4">
                     <div class="truck d-flex">
                         <div class="truck-details">
                             <h2>Tipper Truck</h2>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore quis soluta provident. Repudiandae, reiciendis? Nostrum facilis deleniti iusto id ab omnis vitae illo inventore, magni, possimus vero reprehenderit minus ipsa!</p>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore quis soluta provident.
+                                Repudiandae, reiciendis? Nostrum facilis deleniti iusto id ab omnis vitae illo inventore,
+                                magni, possimus vero reprehenderit minus ipsa!</p>
                         </div>
-                        <img src="{{ asset('assets/images/trucks/tipper.png') }}" alt="" class="img-fluid truck-img">
+                        <img src="{{ asset('assets/images/trucks/tipper.png') }}" alt=""
+                            class="img-fluid truck-img">
                     </div>
                 </div>
                 <a class="btn-more" href="#trucks">Browse Our Trucks </a>
@@ -125,18 +136,18 @@
 
     <section class="newsletter">
         <div class="container">
-            <div class="row">
-                <div class="newsletter-form-container col-lg-4">
-                    <h2>Subscribe to our <br> newsletter</h2>
+            <div class="row position-relative align-items-center">
+                <div class="newsletter-form-container col-lg-6">
+                    <h2>Subscribe to our newsletter</h2>
                     <form action="">
                         <div class="newsletter-form">
                             <input type="text" name="email" id="email" placeholder="Email">
-                        <input type="submit" value="Subscribe" class="subscribe-btn">
+                            <input type="submit" value="Subscribe" class="subscribe-btn">
                         </div>
                     </form>
                 </div>
 
-                <div class="col-lg-8">
+                <div class="col-lg-6">
                     <img src="{{ asset('assets/images/newsletter.png') }}" alt="" class="img-fluid">
                 </div>
             </div>
