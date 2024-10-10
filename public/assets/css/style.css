@@ -793,3 +793,7 @@ section {
         max-width: 100%;
     }
 }
+
+.trucks-title {
+    padding-top: 50px;
+}
