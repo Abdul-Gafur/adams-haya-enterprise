@@ -27,4 +27,8 @@ class FrontendController extends Controller
     public function trucks () {
         return view('frontend/pages/trucks');
     }
+
+    public function contact () {
+        return view('frontend/pages/contact');
+    }
  }

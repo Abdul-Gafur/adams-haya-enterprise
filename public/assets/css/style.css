@@ -2,20 +2,20 @@
     --background-color: #ffffff; /* Background color for the entire website, including individual sections */
     --default-color: #444444; /* Default color used for the majority of the text content across the entire website */
     --heading-color: #0b2341; /* Color for headings, subheadings and title throughout the website */
-    --accent-color: #E31E25; /* Accent color that represents the website brand. It's used for buttons, links, and other elements that need to stand out */
+    --accent-color: #e31e25; /* Accent color that represents the website brand. It's used for buttons, links, and other elements that need to stand out */
     --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
     --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
 
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
 :root {
-    --nav-color: #444444;  /* The default color of the main navmenu links */
+    --nav-color: #444444; /* The default color of the main navmenu links */
     --nav-hover-color: #ed502e; /* Applied to main navmenu links when they are hovered over or active */
     --nav-mobile-background-color: #ffffff; /* Used as the background color for mobile navigation menu */
     --nav-dropdown-background-color: #ffffff; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
     --nav-dropdown-color: #444444; /* Used for navigation links of the dropdown items in the navigation menu. */
     --nav-dropdown-hover-color: #ed502e; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
-  }
+}
 
 body {
     color: var(--default-color);
@@ -391,7 +391,6 @@ section {
     width: 10%;
     transition: 0.3s;
     opacity: 0.5;
-
 }
 
 .hero .carousel-control-prev {
@@ -442,7 +441,7 @@ section {
 
 .hero .carousel-indicators li {
     cursor: pointer;
-    background-color: #F8A1A4;
+    background-color: #f8a1a4;
 }
 
 .hero .carousel-indicators .active {
@@ -473,10 +472,9 @@ section {
     }
 }
 
-
 /* Trucks section styles */
 .truck {
-    background-color: #F5F5F5;
+    background-color: #f5f5f5;
     padding: 20px;
     height: 300px;
 }
@@ -508,7 +506,7 @@ section {
     .truck-img {
         max-width: 45%;
     }
-} 
+}
 
 .btn-more {
     color: var(--contrast-color);
@@ -522,7 +520,7 @@ section {
 }
 
 .newsletter {
-    background-color: #FFD8D9;
+    background-color: #ffd8d9;
     padding: 20px;
     height: 32vh;
     position: relative;
@@ -544,13 +542,11 @@ section {
         top: 120px;
     }
 
-    .newsletter-form input[type=text] {
+    input[type="text"] {
         display: block;
         margin-bottom: 30px;
         width: 100%;
     }
-
-
 }
 
 .subscribe-btn {
@@ -575,7 +571,7 @@ section {
     padding: 40px 0;
 }
 
-.newsletter-form-container input[type=text] {
+input[type="text"], input[type="email"] {
     border: none;
     border-bottom: 2px solid #000000;
     background-color: transparent !important;
@@ -606,7 +602,6 @@ section {
 .footer-links ul {
     list-style: none;
     padding: 0;
-
 }
 
 .footer-socials ul {
@@ -646,7 +641,7 @@ section {
 
 /* OUT MISSION STYLES */
 .our-mission {
-    background-color: #1D1D1D;
+    background-color: #1d1d1d;
     color: #ffffff;
 }
 
@@ -680,9 +675,8 @@ section {
         padding: 20px 40px;
     }
 
-    .about-content{
+    .about-content {
         padding-top: 2rem;
-
     }
 
     .our-mission .content {
@@ -694,7 +688,6 @@ section {
     .about-vid {
         padding: 40px 0;
     }
-
 }
 
 /* TEAM STYLES */
@@ -702,10 +695,8 @@ section {
 .team-member {
     padding: 30px;
     margin-top: 20px;
-    background-color: #F5F5F5;
+    background-color: #f5f5f5;
 }
-
-
 
 .team-details {
     text-align: center;
@@ -735,7 +726,7 @@ section {
 }
 
 .why-choose-us {
-    background-color: #FFE7E7;
+    background-color: #ffe7e7;
 }
 
 .why-choose-us .content p {
@@ -769,10 +760,9 @@ section {
         margin-top: 20px;
         height: 30vh;
     }
-    
 }
 
-.logistics .content{
+.logistics .content {
     padding: 5rem;
 }
 
@@ -797,3 +787,18 @@ section {
 .trucks-title {
     padding-top: 50px;
 }
+
+.contact-form-wrapper {
+    background-color: #ffd8d9;
+    padding: 30px;
+}
+
+.contact-form input, 
+        .contact-form textarea {
+            margin-bottom: 20px;
+            border-radius: 0;
+        }
+
+        .contact-form-wrapper h2 {
+            padding-bottom: 20px;
+        }
